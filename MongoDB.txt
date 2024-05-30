@@ -1,0 +1,56 @@
+use prueba
+
+var pais = {Nombre:"Colombia"}
+var Pais1 = {Nombre:"España"}
+var Pais2 = {Nombre:"Turquia"}
+
+db.Paises.insertMany([Pais,Pais1,Pais2])
+
+db.Paises.find()
+
+var zona = {nombre:"America"}
+var zona1 = {nombre:"Europa"}
+var zona2 = {Nombre:"Oceania"}
+
+db.zonas.insertMany([zona,zona1,zona2])
+
+db.zonas.find()
+
+var producto = {Nombre:"Carnicas"}
+var producto1 = {Nombre:"Bebida"}
+var producto2 = {Nombre:"Cosmeticos"}
+
+db.productos.insertMany([producto,producto1,producto2])
+
+db.productos.find()
+
+var canal_venta = {Nombre:"Offline"}
+var canal_venta1 = {Nombre:"Online"}
+
+db.canal_ventas.insertMany([canal_venta,canal_venta1])
+
+db.canal_ventas.find()
+
+var Fechas_Pedido = {Fecha:"12/10/2020"}
+var Fechas_Pedido1 = {Fecha:"26/01/2020"}
+var Fechas_Pedido2 = {Fecha:"9/11/2020"}
+var Fechas_Pedido3 = {Fecha:"21/08/2021"}
+
+db.Fecha_Pedido.insertMany([Fechas_Pedido,Fechas_Pedido1,Fechas_Pedido2,Fechas_Pedido3])
+
+db.Fecha_Pedido.find()
+
+var cliente = {"id_Clientes":"1","Nombre":"Leandra Anna Malo Alba","Direccion":"7943 S. Fifth Street","telefono":"5984515865","Correo":"uraeus@mac.com","Fecha_Alta":"2012-01-19 14:32:00","Grupo_Cliente":"A"}
+var cliente1 = {"id_Clientes":"2","Nombre":"Severo Granados Iglesia","Direccion":"77 Lyme Street","telefono":"8697711487","Correo":"bhima@me.com","Fecha_Alta":"2005-03-22 15:42:00","Grupo_Cliente":"E"}
+var cliente2 = {"id_Clientes":"3","Nombre":"Lucho Andreu Amat","Direccion":"9448 Fairfield St.","telefono":"2462457306","Correo":"psichel@sbcglobal.net","Fecha_Alta":"2007-09-15 03:01:00","Grupo_Cliente":"E"}
+var cliente3 = {"id_Clientes":"4","Nombre":"Matías Mauricio Castillo Barrera","Direccion":"8143 College St.","telefono":"7079332513","Correo":"tbeck@optonline.net","Fecha_Alta":"2011-12-07 15:22:00","Grupo_Cliente":"E"}
+
+db.clientes.insertMany([cliente,cliente1,cliente2,cliente3])
+
+db.clientes.find()
+
+
+
+
+
+
